@@ -25,8 +25,8 @@ const todoSlice = createSlice({
       const todo = state.todos.find(todo => todo.id === action.payload.id);
       if (todo) {
         todo.text = action.payload.text;
-      }
-    },
+      }                                                                                                      
+    },      
   },
 });
 
